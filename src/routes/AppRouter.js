@@ -6,7 +6,8 @@ import {
     Content,
     Footer,
     Header,
-    LandingPage
+    LandingPage,
+    SignupPage
 } from '../components'
 
 const AppRouter = () => (
@@ -14,6 +15,7 @@ const AppRouter = () => (
         {'test' === 'test' ?
             <Switch>
                 <Route path="/" component={LandingPage} exact={true} />
+                <Route path="/signup" component={SignupPage} exact={true}/>
             </Switch>
             :
             <Switch>

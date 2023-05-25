@@ -6,6 +6,7 @@ function LoginForm() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    console.log('sending info to login');
     // code to handle form submission
   }
 
@@ -22,6 +23,9 @@ function LoginForm() {
       </label>
       <br />
       <button type="submit">Login</button>
+      <p>
+        Don't have an account? <a href="/signup">Sign up</a>
+      </p>
     </form>
   );
 }
