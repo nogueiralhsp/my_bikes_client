@@ -58,7 +58,6 @@ class SignupPage extends React.Component {
         } catch (error) {
           console.log('there was an error');
         }
-
       })
       .catch(error => console.log('error', error));
 
@@ -89,7 +88,7 @@ class SignupPage extends React.Component {
           <label>
             Email:
             <input
-              type="email"
+              type='email'
               id='email'
               placeholder='email'
               onChange={this.emailHandler} />
