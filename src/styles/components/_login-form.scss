@@ -1,0 +1,18 @@
+.login-form {
+    // padding: 2rem;
+    // width: 300px;
+    margin: 0 auto;
+
+    label,
+    input {
+        display: flex;
+        align-items: center;
+        margin: 0.5rem;
+    }
+    
+    .login-form__submit__button {
+        align-items: right;
+        display: flex;
+        justify-content: flex-end;
+    }
+}

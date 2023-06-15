@@ -6,14 +6,10 @@ const LandingPage = () => (
 
 
      <div className='landing-page'>
-          <div className='landing-page__header'>
-               <h1>My Bike</h1>
-          </div>
-
           <div className='landing-page__layout'>
 
                <div className='landing-page__content'>
-                    <img className= 'landing-page__content__img'src= {LandingPageImage} alt="a coubple on the bike" />
+                    <img className='landing-page__content__img' src={LandingPageImage} alt="a coubple on the bike" />
                </div>
 
                <div className='landing-page__content'>

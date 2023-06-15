@@ -1,9 +1,17 @@
 import React from 'react'
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Footer = () => (
      <div className="footer">
-          <h1>This is my bootstrap footer</h1>
+          <div className="footer-contact">
+               <p>
+                    Contact <br />
+                    Phone: 074 8227 5310 <br />
+                    Email: nogueiralhsp@gmail.com <br />
+               </p>
+          </div>
      </div>
+
 );
 
 export default Footer

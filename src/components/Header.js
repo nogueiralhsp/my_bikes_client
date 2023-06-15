@@ -2,7 +2,10 @@ import React from 'react'
 
 const Header = () => (
      <header className="header">
-          <h1>This is my bootstrap header</h1>
+          <div className='page-header'>
+               <a href="/">My Bike</a>
+          </div>
+
      </header>
 );
 

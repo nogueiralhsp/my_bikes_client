@@ -1,7 +1,12 @@
+//Keep Settings at the top
+@import './base/settings';
+//Commonly shared with styles throughout the page
 @import './base/base';
 
 @import './components/content';
 @import './components/footer';
 @import './components/header';
+@import './components/signup-form';
 
 @import './components/landing-page';
+@import './components/login-form';

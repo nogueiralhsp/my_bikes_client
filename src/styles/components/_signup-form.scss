@@ -1,0 +1,28 @@
+.signup-form__title {
+    color: $white;
+    font-size: $s-size;
+}
+.signup-form {
+    background-color: $dark-blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 18rem;
+    max-width: 30rem;
+    margin: auto;
+    margin-bottom: $l-size;
+    padding: 3rem;
+    border-radius: $vs-size;
+
+    input {
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+    .login-form__submit__button {
+        align-items: right;
+        display: flex;
+        justify-content: flex-end;
+    }
+}

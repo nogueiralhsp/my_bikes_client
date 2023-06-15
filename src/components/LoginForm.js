@@ -47,10 +47,10 @@ class LoginForm extends React.Component {
 
   render() {
     return (
-      <div className='login'>
+      <div className='login-form'>
         <form onSubmit={this.submitHandler} >
           <label>
-            Username:
+            <p>Username:</p>
             <input
               type="text"
               id='username'
@@ -58,18 +58,18 @@ class LoginForm extends React.Component {
               onChange={this.usernameHandler}
             />
           </label>
-          <br />
           <label>
-            Password:
+            <p>Password:</p>
             <input
               type="password"
               id='password'
               onChange={this.passwordHandler} />
           </label>
-          <br />
-          <button type="submit">Login</button>
-          <p>
-            Don't have an account? <a href="/signup">Sign up</a>
+          <div className='login-form__submit__button'>
+            <button type="submit">Login</button>
+          </div>
+          <p >
+            Don't have an account? <a className='links' href="/signup">Sign up</a>
           </p>
         </form>
       </div>

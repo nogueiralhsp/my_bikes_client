@@ -65,7 +65,10 @@ class SignupPage extends React.Component {
   }
   render() {
     return (
-      <div className='header'>
+      <div className='signup-form'>
+        <div className='signup-form__title'>
+          <h1>Sign Up</h1>
+        </div>
         <form onSubmit={this.submitHandler}>
           <label>
             Username:
@@ -104,7 +107,9 @@ class SignupPage extends React.Component {
             />
           </label>
           <br />
-          <button type="submit" onClick={this.submitHandler}>Sign Up</button>
+          <div>
+            <button type="submit" onClick={this.submitHandler}>Sign Up</button>
+          </div>
         </form>
       </div>
 

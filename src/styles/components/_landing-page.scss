@@ -1,27 +1,19 @@
 .landing-page {
-    .landing-page__header {
-        background-color: black;
-        font-family: roboto;
-        color: white;
-        padding: 2rem;
-        text-align: center;
-        font-size: 2rem;
-        font-weight: 700;
-        margin-bottom: 1rem;
-        .landing-page__header__subtitle {
-            font-size: 1.5rem;
-            font-weight: 400;
-        }
-    }
-
     .landing-page__layout {
+        // debugging / testing
+        // border: solid 1px red;
+
         display: flex;
         justify-content: center;
 
         min-height: 500px;
-        .landing-page__content__img{
+        .landing-page__content__img {
+            // debugging / testing
+            // border: solid 1px red;
+            border-radius: 10px;
             max-height: 500px;
         }
+        
         .landing-page__content {
             padding: 2rem;
             text-align: center;

@@ -13,10 +13,20 @@ import {
 const AppRouter = () => (
     <BrowserRouter>
         {'test' === 'test' ?
-            <Switch>
-                <Route path="/" component={LandingPage} exact={true} />
-                <Route path="/signup" component={SignupPage} exact={true}/>
-            </Switch>
+            <div>
+                <div>
+                    <Header />
+                </div>
+
+                <Switch>
+                    <Route path="/" component={LandingPage} exact={true} />
+                    <Route path="/signup" component={SignupPage} exact={true} />
+                </Switch>
+
+                <div>
+                    <Footer />
+                </div>
+            </div>
             :
             <Switch>
                 <div>
