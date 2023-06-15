@@ -1,0 +1,39 @@
+.landing-page {
+    .landing-page__header {
+        background-color: black;
+        font-family: roboto;
+        color: white;
+        padding: 2rem;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        .landing-page__header__subtitle {
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+    }
+
+    .landing-page__layout {
+        display: flex;
+        justify-content: center;
+
+        min-height: 500px;
+        .landing-page__content__img{
+            max-height: 500px;
+        }
+        .landing-page__content {
+            padding: 2rem;
+            text-align: center;
+            .landing-page__content__title {
+                font-size: 1.5rem;
+                font-weight: 700;
+                margin-bottom: 1rem;
+            }
+            .landing-page__content__subtitle {
+                font-size: 1rem;
+                font-weight: 400;
+            }
+        }
+    }
+}

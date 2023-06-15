@@ -47,30 +47,32 @@ class LoginForm extends React.Component {
 
   render() {
     return (
-      <form onSubmit={this.submitHandler} >
-        <label>
-          Username:
-          <input
-            type="text"
-            id='username'
-            placeholder='username'
-            onChange={this.usernameHandler}
-          />
-        </label>
-        <br />
-        <label>
-          Password:
-          <input
-            type="password"
-            id='password'
-            onChange={this.passwordHandler} />
-        </label>
-        <br />
-        <button type="submit">Login</button>
-        <p>
-          Don't have an account? <a href="/signup">Sign up</a>
-        </p>
-      </form>
+      <div className='login'>
+        <form onSubmit={this.submitHandler} >
+          <label>
+            Username:
+            <input
+              type="text"
+              id='username'
+              placeholder='username'
+              onChange={this.usernameHandler}
+            />
+          </label>
+          <br />
+          <label>
+            Password:
+            <input
+              type="password"
+              id='password'
+              onChange={this.passwordHandler} />
+          </label>
+          <br />
+          <button type="submit">Login</button>
+          <p>
+            Don't have an account? <a href="/signup">Sign up</a>
+          </p>
+        </form>
+      </div>
     );
   }
 }
